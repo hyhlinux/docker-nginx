@@ -1,0 +1,1093 @@
+2017/06/15 17:16:14 [error] 23705#0: *1 open() "/usr/local/webserver/nginx/html/favicon.ico" failed (2: No such file or directory), client: 45.63.120.38, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "tplinux.cn", referrer: "http://tplinux.cn/"
+2017/06/15 17:16:52 [notice] 23783#0: signal process started
+2017/06/15 17:17:21 [notice] 23827#0: signal process started
+2017/06/15 17:17:21 [error] 23827#0: open() "/usr/local/webserver/nginx/logs/nginx.pid" failed (2: No such file or directory)
+2017/06/15 17:23:19 [debug] 29684#0: bind() 0.0.0.0:80 #6 
+2017/06/15 17:23:19 [emerg] 29684#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/06/15 17:23:19 [notice] 29684#0: try again to bind() after 500ms
+2017/06/15 17:23:19 [debug] 29684#0: bind() 0.0.0.0:80 #6 
+2017/06/15 17:23:19 [emerg] 29684#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/06/15 17:23:19 [notice] 29684#0: try again to bind() after 500ms
+2017/06/15 17:23:19 [debug] 29684#0: bind() 0.0.0.0:80 #6 
+2017/06/15 17:23:19 [emerg] 29684#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/06/15 17:23:19 [notice] 29684#0: try again to bind() after 500ms
+2017/06/15 17:23:19 [debug] 29684#0: bind() 0.0.0.0:80 #6 
+2017/06/15 17:23:19 [emerg] 29684#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/06/15 17:23:19 [notice] 29684#0: try again to bind() after 500ms
+2017/06/15 17:23:19 [debug] 29684#0: bind() 0.0.0.0:80 #6 
+2017/06/15 17:23:19 [emerg] 29684#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2017/06/15 17:23:19 [notice] 29684#0: try again to bind() after 500ms
+2017/06/15 17:23:19 [emerg] 29684#0: still could not bind()
+2017/06/15 17:23:33 [notice] 29693#0: signal process started
+2017/06/15 17:23:42 [debug] 29696#0: bind() 0.0.0.0:80 #6 
+2017/06/15 17:23:42 [notice] 29696#0: using the "epoll" event method
+2017/06/15 17:23:42 [debug] 29696#0: counter: 00007F4B8803B080, 1
+2017/06/15 17:23:42 [notice] 29696#0: nginx/1.6.2
+2017/06/15 17:23:42 [notice] 29696#0: built by gcc 4.4.7 20120313 (Red Hat 4.4.7-18) (GCC) 
+2017/06/15 17:23:42 [notice] 29696#0: OS: Linux 2.6.32-642.6.2.el6.x86_64
+2017/06/15 17:23:42 [notice] 29696#0: getrlimit(RLIMIT_NOFILE): 100001:100002
+2017/06/15 17:23:42 [debug] 29697#0: write: 7, 00007FFFFCE3FA20, 6, 0
+2017/06/15 17:23:42 [debug] 29697#0: setproctitle: "nginx: master process ./sbin/nginx"
+2017/06/15 17:23:42 [notice] 29697#0: start worker processes
+2017/06/15 17:23:42 [debug] 29697#0: channel 3:7
+2017/06/15 17:23:42 [notice] 29697#0: start worker process 29698
+2017/06/15 17:23:42 [debug] 29697#0: sigsuspend
+2017/06/15 17:23:42 [debug] 29698#0: malloc: 00000000021944C0:6144
+2017/06/15 17:23:42 [debug] 29698#0: malloc: 0000000002195CD0:864
+2017/06/15 17:23:42 [debug] 29698#0: malloc: 0000000002196040:416
+2017/06/15 17:23:42 [debug] 29698#0: malloc: 00000000021961F0:416
+2017/06/15 17:23:42 [debug] 29698#0: epoll add event: fd:6 op:1 ev:00002001
+2017/06/15 17:23:42 [debug] 29698#0: epoll add event: fd:7 op:1 ev:00002001
+2017/06/15 17:23:42 [debug] 29698#0: setproctitle: "nginx: worker process"
+2017/06/15 17:23:42 [debug] 29698#0: worker cycle
+2017/06/15 17:23:42 [debug] 29698#0: epoll timer: -1
+2017/06/15 17:24:07 [debug] 29698#0: epoll: fd:6 ev:0001 d:0000000002195CD0
+2017/06/15 17:24:07 [debug] 29698#0: accept on 0.0.0.0:80, ready: 0
+2017/06/15 17:24:07 [debug] 29698#0: posix_memalign: 000000000218ADA0:256 @16
+2017/06/15 17:24:07 [debug] 29698#0: *1 accept: 45.63.120.38 fd:3
+2017/06/15 17:24:07 [debug] 29698#0: posix_memalign: 00000000021963A0:256 @16
+2017/06/15 17:24:07 [debug] 29698#0: *1 event timer add: 3: 60000:1497518707062
+2017/06/15 17:24:07 [debug] 29698#0: *1 reusable connection: 1
+2017/06/15 17:24:07 [debug] 29698#0: *1 epoll add event: fd:3 op:1 ev:80002001
+2017/06/15 17:24:07 [debug] 29698#0: timer delta: 24384
+2017/06/15 17:24:07 [debug] 29698#0: posted events 0000000000000000
+2017/06/15 17:24:07 [debug] 29698#0: worker cycle
+2017/06/15 17:24:07 [debug] 29698#0: epoll timer: 60000
+2017/06/15 17:24:07 [debug] 29698#0: epoll: fd:3 ev:0001 d:0000000002195E80
+2017/06/15 17:24:07 [debug] 29698#0: *1 http wait request handler
+2017/06/15 17:24:07 [debug] 29698#0: *1 malloc: 00000000021964B0:1024
+2017/06/15 17:24:07 [debug] 29698#0: *1 recv: fd:3 496 of 1024
+2017/06/15 17:24:07 [debug] 29698#0: *1 reusable connection: 0
+2017/06/15 17:24:07 [debug] 29698#0: *1 posix_memalign: 00000000021968C0:4096 @16
+2017/06/15 17:24:07 [debug] 29698#0: *1 http process request line
+2017/06/15 17:24:07 [debug] 29698#0: *1 http request line: "GET / HTTP/1.1"
+2017/06/15 17:24:07 [debug] 29698#0: *1 http uri: "/"
+2017/06/15 17:24:07 [debug] 29698#0: *1 http args: ""
+2017/06/15 17:24:07 [debug] 29698#0: *1 http exten: ""
+2017/06/15 17:24:07 [debug] 29698#0: *1 http process request header line
+2017/06/15 17:24:07 [debug] 29698#0: *1 http header: "Host: tplinux.cn"
+2017/06/15 17:24:07 [debug] 29698#0: *1 http header: "Connection: keep-alive"
+2017/06/15 17:24:07 [debug] 29698#0: *1 http header: "Cache-Control: max-age=0"
+2017/06/15 17:24:07 [debug] 29698#0: *1 http header: "Upgrade-Insecure-Requests: 1"
+2017/06/15 17:24:07 [debug] 29698#0: *1 http header: "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017/06/15 17:24:07 [debug] 29698#0: *1 http header: "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+2017/06/15 17:24:07 [debug] 29698#0: *1 http header: "Accept-Encoding: gzip, deflate, sdch"
+2017/06/15 17:24:07 [debug] 29698#0: *1 http header: "Accept-Language: zh-CN,zh;q=0.8,en;q=0.6"
+2017/06/15 17:24:07 [debug] 29698#0: *1 http header: "If-None-Match: "59424f32-264""
+2017/06/15 17:24:07 [debug] 29698#0: *1 http header: "If-Modified-Since: Thu, 15 Jun 2017 09:11:14 GMT"
+2017/06/15 17:24:07 [debug] 29698#0: *1 http header done
+2017/06/15 17:24:07 [debug] 29698#0: *1 event timer del: 3: 1497518707062
+2017/06/15 17:24:07 [debug] 29698#0: *1 rewrite phase: 0
+2017/06/15 17:24:07 [debug] 29698#0: *1 test location: "/"
+2017/06/15 17:24:07 [debug] 29698#0: *1 using configuration "/"
+2017/06/15 17:24:07 [debug] 29698#0: *1 http cl:-1 max:1048576
+2017/06/15 17:24:07 [debug] 29698#0: *1 rewrite phase: 2
+2017/06/15 17:24:07 [debug] 29698#0: *1 post rewrite phase: 3
+2017/06/15 17:24:07 [debug] 29698#0: *1 generic phase: 4
+2017/06/15 17:24:07 [debug] 29698#0: *1 generic phase: 5
+2017/06/15 17:24:07 [debug] 29698#0: *1 access phase: 6
+2017/06/15 17:24:07 [debug] 29698#0: *1 access phase: 7
+2017/06/15 17:24:07 [debug] 29698#0: *1 post access phase: 8
+2017/06/15 17:24:07 [debug] 29698#0: *1 content phase: 9
+2017/06/15 17:24:07 [debug] 29698#0: *1 open index "/usr/local/webserver/nginx/html/index.html"
+2017/06/15 17:24:07 [debug] 29698#0: *1 internal redirect: "/index.html?"
+2017/06/15 17:24:07 [debug] 29698#0: *1 rewrite phase: 0
+2017/06/15 17:24:07 [debug] 29698#0: *1 test location: "/"
+2017/06/15 17:24:07 [debug] 29698#0: *1 test location: "50x.html"
+2017/06/15 17:24:07 [debug] 29698#0: *1 using configuration "/"
+2017/06/15 17:24:07 [debug] 29698#0: *1 http cl:-1 max:1048576
+2017/06/15 17:24:07 [debug] 29698#0: *1 rewrite phase: 2
+2017/06/15 17:24:07 [debug] 29698#0: *1 post rewrite phase: 3
+2017/06/15 17:24:07 [debug] 29698#0: *1 generic phase: 4
+2017/06/15 17:24:07 [debug] 29698#0: *1 generic phase: 5
+2017/06/15 17:24:07 [debug] 29698#0: *1 access phase: 6
+2017/06/15 17:24:07 [debug] 29698#0: *1 access phase: 7
+2017/06/15 17:24:07 [debug] 29698#0: *1 post access phase: 8
+2017/06/15 17:24:07 [debug] 29698#0: *1 content phase: 9
+2017/06/15 17:24:07 [debug] 29698#0: *1 content phase: 10
+2017/06/15 17:24:07 [debug] 29698#0: *1 content phase: 11
+2017/06/15 17:24:07 [debug] 29698#0: *1 http filename: "/usr/local/webserver/nginx/html/index.html"
+2017/06/15 17:24:07 [debug] 29698#0: *1 add cleanup: 0000000002197848
+2017/06/15 17:24:07 [debug] 29698#0: *1 http static fd: 9
+2017/06/15 17:24:07 [debug] 29698#0: *1 http set discard body
+2017/06/15 17:24:07 [debug] 29698#0: *1 posix_memalign: 000000000218FBF0:4096 @16
+2017/06/15 17:24:07 [debug] 29698#0: *1 http ims:1497517874 lm:1497517874
+2017/06/15 17:24:07 [debug] 29698#0: *1 http im:""59424f32-264"" etag:"59424f32-264"
+2017/06/15 17:24:07 [debug] 29698#0: *1 HTTP/1.1 304 Not Modified
+Server: nginx/1.6.2
+Date: Thu, 15 Jun 2017 09:24:07 GMT
+Last-Modified: Thu, 15 Jun 2017 09:11:14 GMT
+Connection: keep-alive
+ETag: "59424f32-264"
+
+2017/06/15 17:24:07 [debug] 29698#0: *1 write new buf t:1 f:0 000000000218FD78, pos 000000000218FD78, size: 179 file: 0, size: 0
+2017/06/15 17:24:07 [debug] 29698#0: *1 http write filter: l:1 f:0 s:179
+2017/06/15 17:24:07 [debug] 29698#0: *1 http write filter limit 0
+2017/06/15 17:24:07 [debug] 29698#0: *1 writev: 179
+2017/06/15 17:24:07 [debug] 29698#0: *1 http write filter 0000000000000000
+2017/06/15 17:24:07 [debug] 29698#0: *1 http finalize request: 0, "/index.html?" a:1, c:2
+2017/06/15 17:24:07 [debug] 29698#0: *1 http request count:2 blk:0
+2017/06/15 17:24:07 [debug] 29698#0: *1 http finalize request: -4, "/index.html?" a:1, c:1
+2017/06/15 17:24:07 [debug] 29698#0: *1 set http keepalive handler
+2017/06/15 17:24:07 [debug] 29698#0: *1 http close request
+2017/06/15 17:24:07 [debug] 29698#0: *1 http log handler
+2017/06/15 17:24:07 [debug] 29698#0: *1 run cleanup: 0000000002197848
+2017/06/15 17:24:07 [debug] 29698#0: *1 file cleanup: fd:9
+2017/06/15 17:24:07 [debug] 29698#0: *1 free: 00000000021968C0, unused: 8
+2017/06/15 17:24:07 [debug] 29698#0: *1 free: 000000000218FBF0, unused: 3292
+2017/06/15 17:24:07 [debug] 29698#0: *1 free: 00000000021964B0
+2017/06/15 17:24:07 [debug] 29698#0: *1 hc free: 0000000000000000 0
+2017/06/15 17:24:07 [debug] 29698#0: *1 hc busy: 0000000000000000 0
+2017/06/15 17:24:07 [debug] 29698#0: *1 tcp_nodelay
+2017/06/15 17:24:07 [debug] 29698#0: *1 reusable connection: 1
+2017/06/15 17:24:07 [debug] 29698#0: *1 event timer add: 3: 65000:1497518712062
+2017/06/15 17:24:07 [debug] 29698#0: *1 post event 0000000002196110
+2017/06/15 17:24:07 [debug] 29698#0: timer delta: 0
+2017/06/15 17:24:07 [debug] 29698#0: posted events 0000000002196110
+2017/06/15 17:24:07 [debug] 29698#0: posted event 0000000002196110
+2017/06/15 17:24:07 [debug] 29698#0: *1 delete posted event 0000000002196110
+2017/06/15 17:24:07 [debug] 29698#0: *1 http keepalive handler
+2017/06/15 17:24:07 [debug] 29698#0: *1 malloc: 00000000021964B0:1024
+2017/06/15 17:24:07 [debug] 29698#0: *1 recv: fd:3 -1 of 1024
+2017/06/15 17:24:07 [debug] 29698#0: *1 recv() not ready (11: Resource temporarily unavailable)
+2017/06/15 17:24:07 [debug] 29698#0: *1 free: 00000000021964B0
+2017/06/15 17:24:07 [debug] 29698#0: posted event 0000000000000000
+2017/06/15 17:24:07 [debug] 29698#0: worker cycle
+2017/06/15 17:24:07 [debug] 29698#0: epoll timer: 65000
+2017/06/15 17:24:07 [debug] 29698#0: epoll: fd:6 ev:0001 d:0000000002195CD0
+2017/06/15 17:24:07 [debug] 29698#0: accept on 0.0.0.0:80, ready: 0
+2017/06/15 17:24:07 [debug] 29698#0: posix_memalign: 00000000021964B0:256 @16
+2017/06/15 17:24:07 [debug] 29698#0: *2 accept: 45.63.120.38 fd:9
+2017/06/15 17:24:07 [debug] 29698#0: posix_memalign: 00000000021965C0:256 @16
+2017/06/15 17:24:07 [debug] 29698#0: *2 event timer add: 9: 60000:1497518707081
+2017/06/15 17:24:07 [debug] 29698#0: *2 reusable connection: 1
+2017/06/15 17:24:07 [debug] 29698#0: *2 epoll add event: fd:9 op:1 ev:80002001
+2017/06/15 17:24:07 [debug] 29698#0: timer delta: 19
+2017/06/15 17:24:07 [debug] 29698#0: posted events 0000000000000000
+2017/06/15 17:24:07 [debug] 29698#0: worker cycle
+2017/06/15 17:24:07 [debug] 29698#0: epoll timer: 60000
+2017/06/15 17:24:08 [debug] 29698#0: epoll: fd:6 ev:0001 d:0000000002195CD0
+2017/06/15 17:24:08 [debug] 29698#0: accept on 0.0.0.0:80, ready: 0
+2017/06/15 17:24:08 [debug] 29698#0: *1 reusing connection
+2017/06/15 17:24:08 [debug] 29698#0: *1 http keepalive handler
+2017/06/15 17:24:08 [debug] 29698#0: *1 close http connection: 3
+2017/06/15 17:24:08 [debug] 29698#0: *1 event timer del: 3: 1497518712062
+2017/06/15 17:24:08 [debug] 29698#0: *1 reusable connection: 0
+2017/06/15 17:24:08 [debug] 29698#0: *1 free: 0000000000000000
+2017/06/15 17:24:08 [debug] 29698#0: *1 free: 000000000218ADA0, unused: 0
+2017/06/15 17:24:08 [debug] 29698#0: *1 free: 00000000021963A0, unused: 120
+2017/06/15 17:24:08 [debug] 29698#0: *2 reusing connection
+2017/06/15 17:24:08 [debug] 29698#0: *2 http wait request handler
+2017/06/15 17:24:08 [debug] 29698#0: *2 close http connection: 9
+2017/06/15 17:24:08 [debug] 29698#0: *2 event timer del: 9: 1497518707081
+2017/06/15 17:24:08 [debug] 29698#0: *2 reusable connection: 0
+2017/06/15 17:24:08 [debug] 29698#0: *2 free: 00000000021964B0, unused: 16
+2017/06/15 17:24:08 [debug] 29698#0: *2 free: 00000000021965C0, unused: 200
+2017/06/15 17:24:08 [debug] 29698#0: posix_memalign: 000000000218ADA0:256 @16
+2017/06/15 17:24:08 [debug] 29698#0: *3 accept: 45.63.120.38 fd:10
+2017/06/15 17:24:08 [debug] 29698#0: posix_memalign: 000000000218AF00:256 @16
+2017/06/15 17:24:08 [debug] 29698#0: *3 event timer add: 10: 60000:1497518708463
+2017/06/15 17:24:08 [debug] 29698#0: *3 reusable connection: 1
+2017/06/15 17:24:08 [debug] 29698#0: *3 epoll add event: fd:10 op:1 ev:80002001
+2017/06/15 17:24:08 [debug] 29698#0: timer delta: 1382
+2017/06/15 17:24:08 [debug] 29698#0: posted events 0000000000000000
+2017/06/15 17:24:08 [debug] 29698#0: worker cycle
+2017/06/15 17:24:08 [debug] 29698#0: epoll timer: 60000
+2017/06/15 17:25:08 [debug] 29698#0: timer delta: 60061
+2017/06/15 17:25:08 [debug] 29698#0: *3 event timer del: 10: 1497518708463
+2017/06/15 17:25:08 [debug] 29698#0: *3 http wait request handler
+2017/06/15 17:25:08 [info] 29698#0: *3 client timed out (110: Connection timed out) while waiting for request, client: 45.63.120.38, server: 0.0.0.0:80
+2017/06/15 17:25:08 [debug] 29698#0: *3 close http connection: 10
+2017/06/15 17:25:08 [debug] 29698#0: *3 reusable connection: 0
+2017/06/15 17:25:08 [debug] 29698#0: *3 free: 000000000218ADA0, unused: 16
+2017/06/15 17:25:08 [debug] 29698#0: *3 free: 000000000218AF00, unused: 200
+2017/06/15 17:25:08 [debug] 29698#0: posted events 0000000000000000
+2017/06/15 17:25:08 [debug] 29698#0: worker cycle
+2017/06/15 17:25:08 [debug] 29698#0: epoll timer: -1
+2017/06/15 17:33:00 [debug] 29698#0: epoll: fd:6 ev:0001 d:0000000002195CD0
+2017/06/15 17:33:00 [debug] 29698#0: accept on 0.0.0.0:80, ready: 0
+2017/06/15 17:33:00 [debug] 29698#0: posix_memalign: 000000000218ADA0:256 @16
+2017/06/15 17:33:00 [debug] 29698#0: *4 accept: 45.63.120.38 fd:3
+2017/06/15 17:33:00 [debug] 29698#0: posix_memalign: 000000000218AF00:256 @16
+2017/06/15 17:33:00 [debug] 29698#0: *4 event timer add: 3: 60000:1497519240750
+2017/06/15 17:33:00 [debug] 29698#0: *4 reusable connection: 1
+2017/06/15 17:33:00 [debug] 29698#0: *4 epoll add event: fd:3 op:1 ev:80002001
+2017/06/15 17:33:00 [debug] 29698#0: timer delta: 472226
+2017/06/15 17:33:00 [debug] 29698#0: posted events 0000000000000000
+2017/06/15 17:33:00 [debug] 29698#0: worker cycle
+2017/06/15 17:33:00 [debug] 29698#0: epoll timer: 60000
+2017/06/15 17:33:00 [debug] 29698#0: epoll: fd:3 ev:0001 d:0000000002195F58
+2017/06/15 17:33:00 [debug] 29698#0: *4 http wait request handler
+2017/06/15 17:33:00 [debug] 29698#0: *4 malloc: 00000000021963A0:1024
+2017/06/15 17:33:00 [debug] 29698#0: *4 recv: fd:3 415 of 1024
+2017/06/15 17:33:00 [debug] 29698#0: *4 reusable connection: 0
+2017/06/15 17:33:00 [debug] 29698#0: *4 posix_memalign: 00000000021967B0:4096 @16
+2017/06/15 17:33:00 [debug] 29698#0: *4 http process request line
+2017/06/15 17:33:00 [debug] 29698#0: *4 http request line: "GET / HTTP/1.1"
+2017/06/15 17:33:00 [debug] 29698#0: *4 http uri: "/"
+2017/06/15 17:33:00 [debug] 29698#0: *4 http args: ""
+2017/06/15 17:33:00 [debug] 29698#0: *4 http exten: ""
+2017/06/15 17:33:00 [debug] 29698#0: *4 http process request header line
+2017/06/15 17:33:00 [debug] 29698#0: *4 http header: "Host: tplinux.cn"
+2017/06/15 17:33:00 [debug] 29698#0: *4 http header: "Connection: keep-alive"
+2017/06/15 17:33:00 [debug] 29698#0: *4 http header: "Cache-Control: max-age=0"
+2017/06/15 17:33:00 [debug] 29698#0: *4 http header: "Upgrade-Insecure-Requests: 1"
+2017/06/15 17:33:00 [debug] 29698#0: *4 http header: "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017/06/15 17:33:00 [debug] 29698#0: *4 http header: "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+2017/06/15 17:33:00 [debug] 29698#0: *4 http header: "Accept-Encoding: gzip, deflate, sdch"
+2017/06/15 17:33:00 [debug] 29698#0: *4 http header: "Accept-Language: zh-CN,zh;q=0.8,en;q=0.6"
+2017/06/15 17:33:00 [debug] 29698#0: *4 http header done
+2017/06/15 17:33:00 [debug] 29698#0: *4 event timer del: 3: 1497519240750
+2017/06/15 17:33:00 [debug] 29698#0: *4 rewrite phase: 0
+2017/06/15 17:33:00 [debug] 29698#0: *4 test location: "/"
+2017/06/15 17:33:00 [debug] 29698#0: *4 using configuration "/"
+2017/06/15 17:33:00 [debug] 29698#0: *4 http cl:-1 max:1048576
+2017/06/15 17:33:00 [debug] 29698#0: *4 rewrite phase: 2
+2017/06/15 17:33:00 [debug] 29698#0: *4 post rewrite phase: 3
+2017/06/15 17:33:00 [debug] 29698#0: *4 generic phase: 4
+2017/06/15 17:33:00 [debug] 29698#0: *4 generic phase: 5
+2017/06/15 17:33:00 [debug] 29698#0: *4 access phase: 6
+2017/06/15 17:33:00 [debug] 29698#0: *4 access phase: 7
+2017/06/15 17:33:00 [debug] 29698#0: *4 post access phase: 8
+2017/06/15 17:33:00 [debug] 29698#0: *4 content phase: 9
+2017/06/15 17:33:00 [debug] 29698#0: *4 open index "/usr/local/webserver/nginx/html/index.html"
+2017/06/15 17:33:00 [debug] 29698#0: *4 internal redirect: "/index.html?"
+2017/06/15 17:33:00 [debug] 29698#0: *4 rewrite phase: 0
+2017/06/15 17:33:00 [debug] 29698#0: *4 test location: "/"
+2017/06/15 17:33:00 [debug] 29698#0: *4 test location: "50x.html"
+2017/06/15 17:33:00 [debug] 29698#0: *4 using configuration "/"
+2017/06/15 17:33:00 [debug] 29698#0: *4 http cl:-1 max:1048576
+2017/06/15 17:33:00 [debug] 29698#0: *4 rewrite phase: 2
+2017/06/15 17:33:00 [debug] 29698#0: *4 post rewrite phase: 3
+2017/06/15 17:33:00 [debug] 29698#0: *4 generic phase: 4
+2017/06/15 17:33:00 [debug] 29698#0: *4 generic phase: 5
+2017/06/15 17:33:00 [debug] 29698#0: *4 access phase: 6
+2017/06/15 17:33:00 [debug] 29698#0: *4 access phase: 7
+2017/06/15 17:33:00 [debug] 29698#0: *4 post access phase: 8
+2017/06/15 17:33:00 [debug] 29698#0: *4 content phase: 9
+2017/06/15 17:33:00 [debug] 29698#0: *4 content phase: 10
+2017/06/15 17:33:00 [debug] 29698#0: *4 content phase: 11
+2017/06/15 17:33:00 [debug] 29698#0: *4 http filename: "/usr/local/webserver/nginx/html/index.html"
+2017/06/15 17:33:00 [debug] 29698#0: *4 add cleanup: 0000000002197718
+2017/06/15 17:33:00 [debug] 29698#0: *4 http static fd: 9
+2017/06/15 17:33:00 [debug] 29698#0: *4 http set discard body
+2017/06/15 17:33:00 [debug] 29698#0: *4 posix_memalign: 000000000218FBF0:4096 @16
+2017/06/15 17:33:00 [debug] 29698#0: *4 HTTP/1.1 200 OK
+Server: nginx/1.6.2
+Date: Thu, 15 Jun 2017 09:33:00 GMT
+Content-Type: text/html
+Content-Length: 612
+Last-Modified: Thu, 15 Jun 2017 09:11:14 GMT
+Connection: keep-alive
+ETag: "59424f32-264"
+Accept-Ranges: bytes
+
+2017/06/15 17:33:00 [debug] 29698#0: *4 write new buf t:1 f:0 000000000218FD78, pos 000000000218FD78, size: 237 file: 0, size: 0
+2017/06/15 17:33:00 [debug] 29698#0: *4 http write filter: l:0 f:0 s:237
+2017/06/15 17:33:00 [debug] 29698#0: *4 http output filter "/index.html?"
+2017/06/15 17:33:00 [debug] 29698#0: *4 http copy filter: "/index.html?"
+2017/06/15 17:33:00 [debug] 29698#0: *4 http postpone filter "/index.html?" 00007FFFFCE3F3E0
+2017/06/15 17:33:00 [debug] 29698#0: *4 write old buf t:1 f:0 000000000218FD78, pos 000000000218FD78, size: 237 file: 0, size: 0
+2017/06/15 17:33:00 [debug] 29698#0: *4 write new buf t:0 f:1 0000000000000000, pos 0000000000000000, size: 0 file: 0, size: 612
+2017/06/15 17:33:00 [debug] 29698#0: *4 http write filter: l:1 f:0 s:849
+2017/06/15 17:33:00 [debug] 29698#0: *4 http write filter limit 0
+2017/06/15 17:33:00 [debug] 29698#0: *4 writev: 237
+2017/06/15 17:33:00 [debug] 29698#0: *4 sendfile: @0 612
+2017/06/15 17:33:00 [debug] 29698#0: *4 sendfile: 612, @0 612:612
+2017/06/15 17:33:00 [debug] 29698#0: *4 http write filter 0000000000000000
+2017/06/15 17:33:00 [debug] 29698#0: *4 http copy filter: 0 "/index.html?"
+2017/06/15 17:33:00 [debug] 29698#0: *4 http finalize request: 0, "/index.html?" a:1, c:2
+2017/06/15 17:33:00 [debug] 29698#0: *4 http request count:2 blk:0
+2017/06/15 17:33:00 [debug] 29698#0: *4 http finalize request: -4, "/index.html?" a:1, c:1
+2017/06/15 17:33:00 [debug] 29698#0: *4 set http keepalive handler
+2017/06/15 17:33:00 [debug] 29698#0: *4 http close request
+2017/06/15 17:33:00 [debug] 29698#0: *4 http log handler
+2017/06/15 17:33:00 [debug] 29698#0: *4 run cleanup: 0000000002197718
+2017/06/15 17:33:00 [debug] 29698#0: *4 file cleanup: fd:9
+2017/06/15 17:33:00 [debug] 29698#0: *4 free: 00000000021967B0, unused: 24
+2017/06/15 17:33:00 [debug] 29698#0: *4 free: 000000000218FBF0, unused: 3111
+2017/06/15 17:33:00 [debug] 29698#0: *4 free: 00000000021963A0
+2017/06/15 17:33:00 [debug] 29698#0: *4 hc free: 0000000000000000 0
+2017/06/15 17:33:00 [debug] 29698#0: *4 hc busy: 0000000000000000 0
+2017/06/15 17:33:00 [debug] 29698#0: *4 tcp_nodelay
+2017/06/15 17:33:00 [debug] 29698#0: *4 reusable connection: 1
+2017/06/15 17:33:00 [debug] 29698#0: *4 event timer add: 3: 65000:1497519245750
+2017/06/15 17:33:00 [debug] 29698#0: *4 post event 0000000002196178
+2017/06/15 17:33:00 [debug] 29698#0: timer delta: 0
+2017/06/15 17:33:00 [debug] 29698#0: posted events 0000000002196178
+2017/06/15 17:33:00 [debug] 29698#0: posted event 0000000002196178
+2017/06/15 17:33:00 [debug] 29698#0: *4 delete posted event 0000000002196178
+2017/06/15 17:33:00 [debug] 29698#0: *4 http keepalive handler
+2017/06/15 17:33:00 [debug] 29698#0: *4 malloc: 00000000021963A0:1024
+2017/06/15 17:33:00 [debug] 29698#0: *4 recv: fd:3 -1 of 1024
+2017/06/15 17:33:00 [debug] 29698#0: *4 recv() not ready (11: Resource temporarily unavailable)
+2017/06/15 17:33:00 [debug] 29698#0: *4 free: 00000000021963A0
+2017/06/15 17:33:00 [debug] 29698#0: posted event 0000000000000000
+2017/06/15 17:33:00 [debug] 29698#0: worker cycle
+2017/06/15 17:33:00 [debug] 29698#0: epoll timer: 65000
+2017/06/15 17:33:01 [debug] 29698#0: epoll: fd:6 ev:0001 d:0000000002195CD0
+2017/06/15 17:33:01 [debug] 29698#0: accept on 0.0.0.0:80, ready: 0
+2017/06/15 17:33:01 [debug] 29698#0: posix_memalign: 000000000218B010:256 @16
+2017/06/15 17:33:01 [debug] 29698#0: *5 accept: 45.63.120.38 fd:9
+2017/06/15 17:33:01 [debug] 29698#0: posix_memalign: 00000000021963A0:256 @16
+2017/06/15 17:33:01 [debug] 29698#0: *5 event timer add: 9: 60000:1497519241772
+2017/06/15 17:33:01 [debug] 29698#0: *5 reusable connection: 1
+2017/06/15 17:33:01 [debug] 29698#0: *5 epoll add event: fd:9 op:1 ev:80002001
+2017/06/15 17:33:01 [debug] 29698#0: timer delta: 1022
+2017/06/15 17:33:01 [debug] 29698#0: posted events 0000000000000000
+2017/06/15 17:33:01 [debug] 29698#0: worker cycle
+2017/06/15 17:33:01 [debug] 29698#0: epoll timer: 60000
+2017/06/15 17:33:01 [debug] 29698#0: epoll: fd:9 ev:0001 d:0000000002195E81
+2017/06/15 17:33:01 [debug] 29698#0: *5 http wait request handler
+2017/06/15 17:33:01 [debug] 29698#0: *5 malloc: 00000000021964B0:1024
+2017/06/15 17:33:01 [debug] 29698#0: *5 recv: fd:9 292 of 1024
+2017/06/15 17:33:01 [debug] 29698#0: *5 reusable connection: 0
+2017/06/15 17:33:01 [debug] 29698#0: *5 posix_memalign: 00000000021968C0:4096 @16
+2017/06/15 17:33:01 [debug] 29698#0: *5 http process request line
+2017/06/15 17:33:01 [debug] 29698#0: *5 http request line: "GET / HTTP/1.1"
+2017/06/15 17:33:01 [debug] 29698#0: *5 http uri: "/"
+2017/06/15 17:33:01 [debug] 29698#0: *5 http args: ""
+2017/06/15 17:33:01 [debug] 29698#0: *5 http exten: ""
+2017/06/15 17:33:01 [debug] 29698#0: *5 http process request header line
+2017/06/15 17:33:01 [debug] 29698#0: *5 http header: "Host: www.tplinux.cn"
+2017/06/15 17:33:01 [debug] 29698#0: *5 http header: "Connection: keep-alive"
+2017/06/15 17:33:01 [debug] 29698#0: *5 http header: "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017/06/15 17:33:01 [debug] 29698#0: *5 http header: "Accept: */*"
+2017/06/15 17:33:01 [debug] 29698#0: *5 http header: "Accept-Encoding: gzip, deflate, sdch"
+2017/06/15 17:33:01 [debug] 29698#0: *5 http header: "Accept-Language: zh-CN,zh;q=0.8,en;q=0.6"
+2017/06/15 17:33:01 [debug] 29698#0: *5 http header done
+2017/06/15 17:33:01 [debug] 29698#0: *5 event timer del: 9: 1497519241772
+2017/06/15 17:33:01 [debug] 29698#0: *5 rewrite phase: 0
+2017/06/15 17:33:01 [debug] 29698#0: *5 test location: "/"
+2017/06/15 17:33:01 [debug] 29698#0: *5 using configuration "/"
+2017/06/15 17:33:01 [debug] 29698#0: *5 http cl:-1 max:1048576
+2017/06/15 17:33:01 [debug] 29698#0: *5 rewrite phase: 2
+2017/06/15 17:33:01 [debug] 29698#0: *5 post rewrite phase: 3
+2017/06/15 17:33:01 [debug] 29698#0: *5 generic phase: 4
+2017/06/15 17:33:01 [debug] 29698#0: *5 generic phase: 5
+2017/06/15 17:33:01 [debug] 29698#0: *5 access phase: 6
+2017/06/15 17:33:01 [debug] 29698#0: *5 access phase: 7
+2017/06/15 17:33:01 [debug] 29698#0: *5 post access phase: 8
+2017/06/15 17:33:01 [debug] 29698#0: *5 content phase: 9
+2017/06/15 17:33:01 [debug] 29698#0: *5 open index "/usr/local/webserver/nginx/html/index.html"
+2017/06/15 17:33:01 [debug] 29698#0: *5 internal redirect: "/index.html?"
+2017/06/15 17:33:01 [debug] 29698#0: *5 rewrite phase: 0
+2017/06/15 17:33:01 [debug] 29698#0: *5 test location: "/"
+2017/06/15 17:33:01 [debug] 29698#0: *5 test location: "50x.html"
+2017/06/15 17:33:01 [debug] 29698#0: *5 using configuration "/"
+2017/06/15 17:33:01 [debug] 29698#0: *5 http cl:-1 max:1048576
+2017/06/15 17:33:01 [debug] 29698#0: *5 rewrite phase: 2
+2017/06/15 17:33:01 [debug] 29698#0: *5 post rewrite phase: 3
+2017/06/15 17:33:01 [debug] 29698#0: *5 generic phase: 4
+2017/06/15 17:33:01 [debug] 29698#0: *5 generic phase: 5
+2017/06/15 17:33:01 [debug] 29698#0: *5 access phase: 6
+2017/06/15 17:33:01 [debug] 29698#0: *5 access phase: 7
+2017/06/15 17:33:01 [debug] 29698#0: *5 post access phase: 8
+2017/06/15 17:33:01 [debug] 29698#0: *5 content phase: 9
+2017/06/15 17:33:01 [debug] 29698#0: *5 content phase: 10
+2017/06/15 17:33:01 [debug] 29698#0: *5 content phase: 11
+2017/06/15 17:33:01 [debug] 29698#0: *5 http filename: "/usr/local/webserver/nginx/html/index.html"
+2017/06/15 17:33:01 [debug] 29698#0: *5 add cleanup: 0000000002197808
+2017/06/15 17:33:01 [debug] 29698#0: *5 http static fd: 10
+2017/06/15 17:33:01 [debug] 29698#0: *5 http set discard body
+2017/06/15 17:33:01 [debug] 29698#0: *5 posix_memalign: 000000000218FBF0:4096 @16
+2017/06/15 17:33:01 [debug] 29698#0: *5 HTTP/1.1 200 OK
+Server: nginx/1.6.2
+Date: Thu, 15 Jun 2017 09:33:01 GMT
+Content-Type: text/html
+Content-Length: 612
+Last-Modified: Thu, 15 Jun 2017 09:11:14 GMT
+Connection: keep-alive
+ETag: "59424f32-264"
+Accept-Ranges: bytes
+
+2017/06/15 17:33:01 [debug] 29698#0: *5 write new buf t:1 f:0 000000000218FD28, pos 000000000218FD28, size: 237 file: 0, size: 0
+2017/06/15 17:33:01 [debug] 29698#0: *5 http write filter: l:0 f:0 s:237
+2017/06/15 17:33:01 [debug] 29698#0: *5 http output filter "/index.html?"
+2017/06/15 17:33:01 [debug] 29698#0: *5 http copy filter: "/index.html?"
+2017/06/15 17:33:01 [debug] 29698#0: *5 http postpone filter "/index.html?" 00007FFFFCE3F3E0
+2017/06/15 17:33:01 [debug] 29698#0: *5 write old buf t:1 f:0 000000000218FD28, pos 000000000218FD28, size: 237 file: 0, size: 0
+2017/06/15 17:33:01 [debug] 29698#0: *5 write new buf t:0 f:1 0000000000000000, pos 0000000000000000, size: 0 file: 0, size: 612
+2017/06/15 17:33:01 [debug] 29698#0: *5 http write filter: l:1 f:0 s:849
+2017/06/15 17:33:01 [debug] 29698#0: *5 http write filter limit 0
+2017/06/15 17:33:01 [debug] 29698#0: *5 writev: 237
+2017/06/15 17:33:01 [debug] 29698#0: *5 sendfile: @0 612
+2017/06/15 17:33:01 [debug] 29698#0: *5 sendfile: 612, @0 612:612
+2017/06/15 17:33:01 [debug] 29698#0: *5 http write filter 0000000000000000
+2017/06/15 17:33:01 [debug] 29698#0: *5 http copy filter: 0 "/index.html?"
+2017/06/15 17:33:01 [debug] 29698#0: *5 http finalize request: 0, "/index.html?" a:1, c:2
+2017/06/15 17:33:01 [debug] 29698#0: *5 http request count:2 blk:0
+2017/06/15 17:33:01 [debug] 29698#0: *5 http finalize request: -4, "/index.html?" a:1, c:1
+2017/06/15 17:33:01 [debug] 29698#0: *5 set http keepalive handler
+2017/06/15 17:33:01 [debug] 29698#0: *5 http close request
+2017/06/15 17:33:01 [debug] 29698#0: *5 http log handler
+2017/06/15 17:33:01 [debug] 29698#0: *5 run cleanup: 0000000002197808
+2017/06/15 17:33:01 [debug] 29698#0: *5 file cleanup: fd:10
+2017/06/15 17:33:01 [debug] 29698#0: *5 free: 00000000021968C0, unused: 8
+2017/06/15 17:33:01 [debug] 29698#0: *5 free: 000000000218FBF0, unused: 3159
+2017/06/15 17:33:01 [debug] 29698#0: *5 free: 00000000021964B0
+2017/06/15 17:33:01 [debug] 29698#0: *5 hc free: 0000000000000000 0
+2017/06/15 17:33:01 [debug] 29698#0: *5 hc busy: 0000000000000000 0
+2017/06/15 17:33:01 [debug] 29698#0: *5 tcp_nodelay
+2017/06/15 17:33:01 [debug] 29698#0: *5 reusable connection: 1
+2017/06/15 17:33:01 [debug] 29698#0: *5 event timer add: 9: 65000:1497519246772
+2017/06/15 17:33:01 [debug] 29698#0: *5 post event 0000000002196110
+2017/06/15 17:33:01 [debug] 29698#0: timer delta: 0
+2017/06/15 17:33:01 [debug] 29698#0: posted events 0000000002196110
+2017/06/15 17:33:01 [debug] 29698#0: posted event 0000000002196110
+2017/06/15 17:33:01 [debug] 29698#0: *5 delete posted event 0000000002196110
+2017/06/15 17:33:01 [debug] 29698#0: *5 http keepalive handler
+2017/06/15 17:33:01 [debug] 29698#0: *5 malloc: 00000000021964B0:1024
+2017/06/15 17:33:01 [debug] 29698#0: *5 recv: fd:9 -1 of 1024
+2017/06/15 17:33:01 [debug] 29698#0: *5 recv() not ready (11: Resource temporarily unavailable)
+2017/06/15 17:33:01 [debug] 29698#0: *5 free: 00000000021964B0
+2017/06/15 17:33:01 [debug] 29698#0: posted event 0000000000000000
+2017/06/15 17:33:01 [debug] 29698#0: worker cycle
+2017/06/15 17:33:01 [debug] 29698#0: epoll timer: 63978
+2017/06/15 17:33:04 [debug] 29698#0: epoll: fd:3 ev:0001 d:0000000002195F58
+2017/06/15 17:33:04 [debug] 29698#0: *4 http keepalive handler
+2017/06/15 17:33:04 [debug] 29698#0: *4 malloc: 00000000021964B0:1024
+2017/06/15 17:33:04 [debug] 29698#0: *4 recv: fd:3 496 of 1024
+2017/06/15 17:33:04 [debug] 29698#0: *4 reusable connection: 0
+2017/06/15 17:33:04 [debug] 29698#0: *4 posix_memalign: 00000000021968C0:4096 @16
+2017/06/15 17:33:04 [debug] 29698#0: *4 event timer del: 3: 1497519245750
+2017/06/15 17:33:04 [debug] 29698#0: *4 http process request line
+2017/06/15 17:33:04 [debug] 29698#0: *4 http request line: "GET / HTTP/1.1"
+2017/06/15 17:33:04 [debug] 29698#0: *4 http uri: "/"
+2017/06/15 17:33:04 [debug] 29698#0: *4 http args: ""
+2017/06/15 17:33:04 [debug] 29698#0: *4 http exten: ""
+2017/06/15 17:33:04 [debug] 29698#0: *4 http process request header line
+2017/06/15 17:33:04 [debug] 29698#0: *4 http header: "Host: tplinux.cn"
+2017/06/15 17:33:04 [debug] 29698#0: *4 http header: "Connection: keep-alive"
+2017/06/15 17:33:04 [debug] 29698#0: *4 http header: "Cache-Control: max-age=0"
+2017/06/15 17:33:04 [debug] 29698#0: *4 http header: "Upgrade-Insecure-Requests: 1"
+2017/06/15 17:33:04 [debug] 29698#0: *4 http header: "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017/06/15 17:33:04 [debug] 29698#0: *4 http header: "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+2017/06/15 17:33:04 [debug] 29698#0: *4 http header: "Accept-Encoding: gzip, deflate, sdch"
+2017/06/15 17:33:04 [debug] 29698#0: *4 http header: "Accept-Language: zh-CN,zh;q=0.8,en;q=0.6"
+2017/06/15 17:33:04 [debug] 29698#0: *4 http header: "If-None-Match: "59424f32-264""
+2017/06/15 17:33:04 [debug] 29698#0: *4 http header: "If-Modified-Since: Thu, 15 Jun 2017 09:11:14 GMT"
+2017/06/15 17:33:04 [debug] 29698#0: *4 http header done
+2017/06/15 17:33:04 [debug] 29698#0: *4 rewrite phase: 0
+2017/06/15 17:33:04 [debug] 29698#0: *4 test location: "/"
+2017/06/15 17:33:04 [debug] 29698#0: *4 using configuration "/"
+2017/06/15 17:33:04 [debug] 29698#0: *4 http cl:-1 max:1048576
+2017/06/15 17:33:04 [debug] 29698#0: *4 rewrite phase: 2
+2017/06/15 17:33:04 [debug] 29698#0: *4 post rewrite phase: 3
+2017/06/15 17:33:04 [debug] 29698#0: *4 generic phase: 4
+2017/06/15 17:33:04 [debug] 29698#0: *4 generic phase: 5
+2017/06/15 17:33:04 [debug] 29698#0: *4 access phase: 6
+2017/06/15 17:33:04 [debug] 29698#0: *4 access phase: 7
+2017/06/15 17:33:04 [debug] 29698#0: *4 post access phase: 8
+2017/06/15 17:33:04 [debug] 29698#0: *4 content phase: 9
+2017/06/15 17:33:04 [debug] 29698#0: *4 open index "/usr/local/webserver/nginx/html/index.html"
+2017/06/15 17:33:04 [debug] 29698#0: *4 internal redirect: "/index.html?"
+2017/06/15 17:33:04 [debug] 29698#0: *4 rewrite phase: 0
+2017/06/15 17:33:04 [debug] 29698#0: *4 test location: "/"
+2017/06/15 17:33:04 [debug] 29698#0: *4 test location: "50x.html"
+2017/06/15 17:33:04 [debug] 29698#0: *4 using configuration "/"
+2017/06/15 17:33:04 [debug] 29698#0: *4 http cl:-1 max:1048576
+2017/06/15 17:33:04 [debug] 29698#0: *4 rewrite phase: 2
+2017/06/15 17:33:04 [debug] 29698#0: *4 post rewrite phase: 3
+2017/06/15 17:33:04 [debug] 29698#0: *4 generic phase: 4
+2017/06/15 17:33:04 [debug] 29698#0: *4 generic phase: 5
+2017/06/15 17:33:04 [debug] 29698#0: *4 access phase: 6
+2017/06/15 17:33:04 [debug] 29698#0: *4 access phase: 7
+2017/06/15 17:33:04 [debug] 29698#0: *4 post access phase: 8
+2017/06/15 17:33:04 [debug] 29698#0: *4 content phase: 9
+2017/06/15 17:33:04 [debug] 29698#0: *4 content phase: 10
+2017/06/15 17:33:04 [debug] 29698#0: *4 content phase: 11
+2017/06/15 17:33:04 [debug] 29698#0: *4 http filename: "/usr/local/webserver/nginx/html/index.html"
+2017/06/15 17:33:04 [debug] 29698#0: *4 add cleanup: 0000000002197848
+2017/06/15 17:33:04 [debug] 29698#0: *4 http static fd: 10
+2017/06/15 17:33:04 [debug] 29698#0: *4 http set discard body
+2017/06/15 17:33:04 [debug] 29698#0: *4 posix_memalign: 000000000218FBF0:4096 @16
+2017/06/15 17:33:04 [debug] 29698#0: *4 http ims:1497517874 lm:1497517874
+2017/06/15 17:33:04 [debug] 29698#0: *4 http im:""59424f32-264"" etag:"59424f32-264"
+2017/06/15 17:33:04 [debug] 29698#0: *4 HTTP/1.1 304 Not Modified
+Server: nginx/1.6.2
+Date: Thu, 15 Jun 2017 09:33:04 GMT
+Last-Modified: Thu, 15 Jun 2017 09:11:14 GMT
+Connection: keep-alive
+ETag: "59424f32-264"
+
+2017/06/15 17:33:04 [debug] 29698#0: *4 write new buf t:1 f:0 000000000218FD78, pos 000000000218FD78, size: 179 file: 0, size: 0
+2017/06/15 17:33:04 [debug] 29698#0: *4 http write filter: l:1 f:0 s:179
+2017/06/15 17:33:04 [debug] 29698#0: *4 http write filter limit 0
+2017/06/15 17:33:04 [debug] 29698#0: *4 writev: 179
+2017/06/15 17:33:04 [debug] 29698#0: *4 http write filter 0000000000000000
+2017/06/15 17:33:04 [debug] 29698#0: *4 http finalize request: 0, "/index.html?" a:1, c:2
+2017/06/15 17:33:04 [debug] 29698#0: *4 http request count:2 blk:0
+2017/06/15 17:33:04 [debug] 29698#0: *4 http finalize request: -4, "/index.html?" a:1, c:1
+2017/06/15 17:33:04 [debug] 29698#0: *4 set http keepalive handler
+2017/06/15 17:33:04 [debug] 29698#0: *4 http close request
+2017/06/15 17:33:04 [debug] 29698#0: *4 http log handler
+2017/06/15 17:33:04 [debug] 29698#0: *4 run cleanup: 0000000002197848
+2017/06/15 17:33:04 [debug] 29698#0: *4 file cleanup: fd:10
+2017/06/15 17:33:04 [debug] 29698#0: *4 free: 00000000021968C0, unused: 8
+2017/06/15 17:33:04 [debug] 29698#0: *4 free: 000000000218FBF0, unused: 3292
+2017/06/15 17:33:04 [debug] 29698#0: *4 free: 00000000021964B0
+2017/06/15 17:33:04 [debug] 29698#0: *4 hc free: 0000000000000000 0
+2017/06/15 17:33:04 [debug] 29698#0: *4 hc busy: 0000000000000000 0
+2017/06/15 17:33:04 [debug] 29698#0: *4 reusable connection: 1
+2017/06/15 17:33:04 [debug] 29698#0: *4 event timer add: 3: 65000:1497519249188
+2017/06/15 17:33:04 [debug] 29698#0: *4 post event 0000000002196178
+2017/06/15 17:33:04 [debug] 29698#0: timer delta: 2416
+2017/06/15 17:33:04 [debug] 29698#0: posted events 0000000002196178
+2017/06/15 17:33:04 [debug] 29698#0: posted event 0000000002196178
+2017/06/15 17:33:04 [debug] 29698#0: *4 delete posted event 0000000002196178
+2017/06/15 17:33:04 [debug] 29698#0: *4 http keepalive handler
+2017/06/15 17:33:04 [debug] 29698#0: *4 malloc: 00000000021964B0:1024
+2017/06/15 17:33:04 [debug] 29698#0: *4 recv: fd:3 -1 of 1024
+2017/06/15 17:33:04 [debug] 29698#0: *4 recv() not ready (11: Resource temporarily unavailable)
+2017/06/15 17:33:04 [debug] 29698#0: *4 free: 00000000021964B0
+2017/06/15 17:33:04 [debug] 29698#0: posted event 0000000000000000
+2017/06/15 17:33:04 [debug] 29698#0: worker cycle
+2017/06/15 17:33:04 [debug] 29698#0: epoll timer: 62584
+2017/06/15 17:33:04 [debug] 29698#0: epoll: fd:3 ev:0001 d:0000000002195F58
+2017/06/15 17:33:04 [debug] 29698#0: *4 http keepalive handler
+2017/06/15 17:33:04 [debug] 29698#0: *4 malloc: 00000000021964B0:1024
+2017/06/15 17:33:04 [debug] 29698#0: *4 recv: fd:3 496 of 1024
+2017/06/15 17:33:04 [debug] 29698#0: *4 reusable connection: 0
+2017/06/15 17:33:04 [debug] 29698#0: *4 posix_memalign: 00000000021968C0:4096 @16
+2017/06/15 17:33:04 [debug] 29698#0: *4 event timer del: 3: 1497519249188
+2017/06/15 17:33:04 [debug] 29698#0: *4 http process request line
+2017/06/15 17:33:04 [debug] 29698#0: *4 http request line: "GET / HTTP/1.1"
+2017/06/15 17:33:04 [debug] 29698#0: *4 http uri: "/"
+2017/06/15 17:33:04 [debug] 29698#0: *4 http args: ""
+2017/06/15 17:33:04 [debug] 29698#0: *4 http exten: ""
+2017/06/15 17:33:04 [debug] 29698#0: *4 http process request header line
+2017/06/15 17:33:04 [debug] 29698#0: *4 http header: "Host: tplinux.cn"
+2017/06/15 17:33:04 [debug] 29698#0: *4 http header: "Connection: keep-alive"
+2017/06/15 17:33:04 [debug] 29698#0: *4 http header: "Cache-Control: max-age=0"
+2017/06/15 17:33:04 [debug] 29698#0: *4 http header: "Upgrade-Insecure-Requests: 1"
+2017/06/15 17:33:04 [debug] 29698#0: *4 http header: "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017/06/15 17:33:04 [debug] 29698#0: *4 http header: "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+2017/06/15 17:33:04 [debug] 29698#0: *4 http header: "Accept-Encoding: gzip, deflate, sdch"
+2017/06/15 17:33:04 [debug] 29698#0: *4 http header: "Accept-Language: zh-CN,zh;q=0.8,en;q=0.6"
+2017/06/15 17:33:04 [debug] 29698#0: *4 http header: "If-None-Match: "59424f32-264""
+2017/06/15 17:33:04 [debug] 29698#0: *4 http header: "If-Modified-Since: Thu, 15 Jun 2017 09:11:14 GMT"
+2017/06/15 17:33:04 [debug] 29698#0: *4 http header done
+2017/06/15 17:33:04 [debug] 29698#0: *4 rewrite phase: 0
+2017/06/15 17:33:04 [debug] 29698#0: *4 test location: "/"
+2017/06/15 17:33:04 [debug] 29698#0: *4 using configuration "/"
+2017/06/15 17:33:04 [debug] 29698#0: *4 http cl:-1 max:1048576
+2017/06/15 17:33:04 [debug] 29698#0: *4 rewrite phase: 2
+2017/06/15 17:33:04 [debug] 29698#0: *4 post rewrite phase: 3
+2017/06/15 17:33:04 [debug] 29698#0: *4 generic phase: 4
+2017/06/15 17:33:04 [debug] 29698#0: *4 generic phase: 5
+2017/06/15 17:33:04 [debug] 29698#0: *4 access phase: 6
+2017/06/15 17:33:04 [debug] 29698#0: *4 access phase: 7
+2017/06/15 17:33:04 [debug] 29698#0: *4 post access phase: 8
+2017/06/15 17:33:04 [debug] 29698#0: *4 content phase: 9
+2017/06/15 17:33:04 [debug] 29698#0: *4 open index "/usr/local/webserver/nginx/html/index.html"
+2017/06/15 17:33:04 [debug] 29698#0: *4 internal redirect: "/index.html?"
+2017/06/15 17:33:04 [debug] 29698#0: *4 rewrite phase: 0
+2017/06/15 17:33:04 [debug] 29698#0: *4 test location: "/"
+2017/06/15 17:33:04 [debug] 29698#0: *4 test location: "50x.html"
+2017/06/15 17:33:04 [debug] 29698#0: *4 using configuration "/"
+2017/06/15 17:33:04 [debug] 29698#0: *4 http cl:-1 max:1048576
+2017/06/15 17:33:04 [debug] 29698#0: *4 rewrite phase: 2
+2017/06/15 17:33:04 [debug] 29698#0: *4 post rewrite phase: 3
+2017/06/15 17:33:04 [debug] 29698#0: *4 generic phase: 4
+2017/06/15 17:33:04 [debug] 29698#0: *4 generic phase: 5
+2017/06/15 17:33:04 [debug] 29698#0: *4 access phase: 6
+2017/06/15 17:33:04 [debug] 29698#0: *4 access phase: 7
+2017/06/15 17:33:04 [debug] 29698#0: *4 post access phase: 8
+2017/06/15 17:33:04 [debug] 29698#0: *4 content phase: 9
+2017/06/15 17:33:04 [debug] 29698#0: *4 content phase: 10
+2017/06/15 17:33:04 [debug] 29698#0: *4 content phase: 11
+2017/06/15 17:33:04 [debug] 29698#0: *4 http filename: "/usr/local/webserver/nginx/html/index.html"
+2017/06/15 17:33:04 [debug] 29698#0: *4 add cleanup: 0000000002197848
+2017/06/15 17:33:04 [debug] 29698#0: *4 http static fd: 10
+2017/06/15 17:33:04 [debug] 29698#0: *4 http set discard body
+2017/06/15 17:33:04 [debug] 29698#0: *4 posix_memalign: 000000000218FBF0:4096 @16
+2017/06/15 17:33:04 [debug] 29698#0: *4 http ims:1497517874 lm:1497517874
+2017/06/15 17:33:04 [debug] 29698#0: *4 http im:""59424f32-264"" etag:"59424f32-264"
+2017/06/15 17:33:04 [debug] 29698#0: *4 HTTP/1.1 304 Not Modified
+Server: nginx/1.6.2
+Date: Thu, 15 Jun 2017 09:33:04 GMT
+Last-Modified: Thu, 15 Jun 2017 09:11:14 GMT
+Connection: keep-alive
+ETag: "59424f32-264"
+
+2017/06/15 17:33:04 [debug] 29698#0: *4 write new buf t:1 f:0 000000000218FD78, pos 000000000218FD78, size: 179 file: 0, size: 0
+2017/06/15 17:33:04 [debug] 29698#0: *4 http write filter: l:1 f:0 s:179
+2017/06/15 17:33:04 [debug] 29698#0: *4 http write filter limit 0
+2017/06/15 17:33:04 [debug] 29698#0: *4 writev: 179
+2017/06/15 17:33:04 [debug] 29698#0: *4 http write filter 0000000000000000
+2017/06/15 17:33:04 [debug] 29698#0: *4 http finalize request: 0, "/index.html?" a:1, c:2
+2017/06/15 17:33:04 [debug] 29698#0: *4 http request count:2 blk:0
+2017/06/15 17:33:04 [debug] 29698#0: *4 http finalize request: -4, "/index.html?" a:1, c:1
+2017/06/15 17:33:04 [debug] 29698#0: *4 set http keepalive handler
+2017/06/15 17:33:04 [debug] 29698#0: *4 http close request
+2017/06/15 17:33:04 [debug] 29698#0: *4 http log handler
+2017/06/15 17:33:04 [debug] 29698#0: *4 run cleanup: 0000000002197848
+2017/06/15 17:33:04 [debug] 29698#0: *4 file cleanup: fd:10
+2017/06/15 17:33:04 [debug] 29698#0: *4 free: 00000000021968C0, unused: 8
+2017/06/15 17:33:04 [debug] 29698#0: *4 free: 000000000218FBF0, unused: 3292
+2017/06/15 17:33:04 [debug] 29698#0: *4 free: 00000000021964B0
+2017/06/15 17:33:04 [debug] 29698#0: *4 hc free: 0000000000000000 0
+2017/06/15 17:33:04 [debug] 29698#0: *4 hc busy: 0000000000000000 0
+2017/06/15 17:33:04 [debug] 29698#0: *4 reusable connection: 1
+2017/06/15 17:33:04 [debug] 29698#0: *4 event timer add: 3: 65000:1497519249604
+2017/06/15 17:33:04 [debug] 29698#0: *4 post event 0000000002196178
+2017/06/15 17:33:04 [debug] 29698#0: timer delta: 416
+2017/06/15 17:33:04 [debug] 29698#0: posted events 0000000002196178
+2017/06/15 17:33:04 [debug] 29698#0: posted event 0000000002196178
+2017/06/15 17:33:04 [debug] 29698#0: *4 delete posted event 0000000002196178
+2017/06/15 17:33:04 [debug] 29698#0: *4 http keepalive handler
+2017/06/15 17:33:04 [debug] 29698#0: *4 malloc: 00000000021964B0:1024
+2017/06/15 17:33:04 [debug] 29698#0: *4 recv: fd:3 -1 of 1024
+2017/06/15 17:33:04 [debug] 29698#0: *4 recv() not ready (11: Resource temporarily unavailable)
+2017/06/15 17:33:04 [debug] 29698#0: *4 free: 00000000021964B0
+2017/06/15 17:33:04 [debug] 29698#0: posted event 0000000000000000
+2017/06/15 17:33:04 [debug] 29698#0: worker cycle
+2017/06/15 17:33:04 [debug] 29698#0: epoll timer: 62168
+2017/06/15 17:33:04 [debug] 29698#0: epoll: fd:3 ev:2001 d:0000000002195F58
+2017/06/15 17:33:04 [debug] 29698#0: *4 http keepalive handler
+2017/06/15 17:33:04 [debug] 29698#0: *4 malloc: 00000000021964B0:1024
+2017/06/15 17:33:04 [debug] 29698#0: *4 recv: fd:3 0 of 1024
+2017/06/15 17:33:04 [info] 29698#0: *4 client 45.63.120.38 closed keepalive connection
+2017/06/15 17:33:04 [debug] 29698#0: *4 close http connection: 3
+2017/06/15 17:33:04 [debug] 29698#0: *4 event timer del: 3: 1497519249604
+2017/06/15 17:33:04 [debug] 29698#0: *4 reusable connection: 0
+2017/06/15 17:33:04 [debug] 29698#0: *4 free: 00000000021964B0
+2017/06/15 17:33:04 [debug] 29698#0: *4 free: 000000000218ADA0, unused: 0
+2017/06/15 17:33:04 [debug] 29698#0: *4 free: 000000000218AF00, unused: 120
+2017/06/15 17:33:04 [debug] 29698#0: timer delta: 241
+2017/06/15 17:33:04 [debug] 29698#0: posted events 0000000000000000
+2017/06/15 17:33:04 [debug] 29698#0: worker cycle
+2017/06/15 17:33:04 [debug] 29698#0: epoll timer: 61927
+2017/06/15 17:33:05 [debug] 29698#0: epoll: fd:6 ev:0001 d:0000000002195CD0
+2017/06/15 17:33:05 [debug] 29698#0: accept on 0.0.0.0:80, ready: 0
+2017/06/15 17:33:05 [debug] 29698#0: posix_memalign: 000000000218ADA0:256 @16
+2017/06/15 17:33:05 [debug] 29698#0: *6 accept: 45.63.120.38 fd:3
+2017/06/15 17:33:05 [debug] 29698#0: posix_memalign: 000000000218AF00:256 @16
+2017/06/15 17:33:05 [debug] 29698#0: *6 event timer add: 3: 60000:1497519245559
+2017/06/15 17:33:05 [debug] 29698#0: *6 reusable connection: 1
+2017/06/15 17:33:05 [debug] 29698#0: *6 epoll add event: fd:3 op:1 ev:80002001
+2017/06/15 17:33:05 [debug] 29698#0: timer delta: 714
+2017/06/15 17:33:05 [debug] 29698#0: posted events 0000000000000000
+2017/06/15 17:33:05 [debug] 29698#0: worker cycle
+2017/06/15 17:33:05 [debug] 29698#0: epoll timer: 60000
+2017/06/15 17:33:05 [debug] 29698#0: epoll: fd:3 ev:0001 d:0000000002195F59
+2017/06/15 17:33:05 [debug] 29698#0: *6 http wait request handler
+2017/06/15 17:33:05 [debug] 29698#0: *6 malloc: 00000000021964B0:1024
+2017/06/15 17:33:05 [debug] 29698#0: *6 recv: fd:3 415 of 1024
+2017/06/15 17:33:05 [debug] 29698#0: *6 reusable connection: 0
+2017/06/15 17:33:05 [debug] 29698#0: *6 posix_memalign: 00000000021968C0:4096 @16
+2017/06/15 17:33:05 [debug] 29698#0: *6 http process request line
+2017/06/15 17:33:05 [debug] 29698#0: *6 http request line: "GET / HTTP/1.1"
+2017/06/15 17:33:05 [debug] 29698#0: *6 http uri: "/"
+2017/06/15 17:33:05 [debug] 29698#0: *6 http args: ""
+2017/06/15 17:33:05 [debug] 29698#0: *6 http exten: ""
+2017/06/15 17:33:05 [debug] 29698#0: *6 http process request header line
+2017/06/15 17:33:05 [debug] 29698#0: *6 http header: "Host: tplinux.cn"
+2017/06/15 17:33:05 [debug] 29698#0: *6 http header: "Connection: keep-alive"
+2017/06/15 17:33:05 [debug] 29698#0: *6 http header: "Cache-Control: max-age=0"
+2017/06/15 17:33:05 [debug] 29698#0: *6 http header: "Upgrade-Insecure-Requests: 1"
+2017/06/15 17:33:05 [debug] 29698#0: *6 http header: "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017/06/15 17:33:05 [debug] 29698#0: *6 http header: "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+2017/06/15 17:33:05 [debug] 29698#0: *6 http header: "Accept-Encoding: gzip, deflate, sdch"
+2017/06/15 17:33:05 [debug] 29698#0: *6 http header: "Accept-Language: zh-CN,zh;q=0.8,en;q=0.6"
+2017/06/15 17:33:05 [debug] 29698#0: *6 http header done
+2017/06/15 17:33:05 [debug] 29698#0: *6 event timer del: 3: 1497519245559
+2017/06/15 17:33:05 [debug] 29698#0: *6 rewrite phase: 0
+2017/06/15 17:33:05 [debug] 29698#0: *6 test location: "/"
+2017/06/15 17:33:05 [debug] 29698#0: *6 using configuration "/"
+2017/06/15 17:33:05 [debug] 29698#0: *6 http cl:-1 max:1048576
+2017/06/15 17:33:05 [debug] 29698#0: *6 rewrite phase: 2
+2017/06/15 17:33:05 [debug] 29698#0: *6 post rewrite phase: 3
+2017/06/15 17:33:05 [debug] 29698#0: *6 generic phase: 4
+2017/06/15 17:33:05 [debug] 29698#0: *6 generic phase: 5
+2017/06/15 17:33:05 [debug] 29698#0: *6 access phase: 6
+2017/06/15 17:33:05 [debug] 29698#0: *6 access phase: 7
+2017/06/15 17:33:05 [debug] 29698#0: *6 post access phase: 8
+2017/06/15 17:33:05 [debug] 29698#0: *6 content phase: 9
+2017/06/15 17:33:05 [debug] 29698#0: *6 open index "/usr/local/webserver/nginx/html/index.html"
+2017/06/15 17:33:05 [debug] 29698#0: *6 internal redirect: "/index.html?"
+2017/06/15 17:33:05 [debug] 29698#0: *6 rewrite phase: 0
+2017/06/15 17:33:05 [debug] 29698#0: *6 test location: "/"
+2017/06/15 17:33:05 [debug] 29698#0: *6 test location: "50x.html"
+2017/06/15 17:33:05 [debug] 29698#0: *6 using configuration "/"
+2017/06/15 17:33:05 [debug] 29698#0: *6 http cl:-1 max:1048576
+2017/06/15 17:33:05 [debug] 29698#0: *6 rewrite phase: 2
+2017/06/15 17:33:05 [debug] 29698#0: *6 post rewrite phase: 3
+2017/06/15 17:33:05 [debug] 29698#0: *6 generic phase: 4
+2017/06/15 17:33:05 [debug] 29698#0: *6 generic phase: 5
+2017/06/15 17:33:05 [debug] 29698#0: *6 access phase: 6
+2017/06/15 17:33:05 [debug] 29698#0: *6 access phase: 7
+2017/06/15 17:33:05 [debug] 29698#0: *6 post access phase: 8
+2017/06/15 17:33:05 [debug] 29698#0: *6 content phase: 9
+2017/06/15 17:33:05 [debug] 29698#0: *6 content phase: 10
+2017/06/15 17:33:05 [debug] 29698#0: *6 content phase: 11
+2017/06/15 17:33:05 [debug] 29698#0: *6 http filename: "/usr/local/webserver/nginx/html/index.html"
+2017/06/15 17:33:05 [debug] 29698#0: *6 add cleanup: 0000000002197828
+2017/06/15 17:33:05 [debug] 29698#0: *6 http static fd: 10
+2017/06/15 17:33:05 [debug] 29698#0: *6 http set discard body
+2017/06/15 17:33:05 [debug] 29698#0: *6 posix_memalign: 000000000218FBF0:4096 @16
+2017/06/15 17:33:05 [debug] 29698#0: *6 HTTP/1.1 200 OK
+Server: nginx/1.6.2
+Date: Thu, 15 Jun 2017 09:33:05 GMT
+Content-Type: text/html
+Content-Length: 612
+Last-Modified: Thu, 15 Jun 2017 09:11:14 GMT
+Connection: keep-alive
+ETag: "59424f32-264"
+Accept-Ranges: bytes
+
+2017/06/15 17:33:05 [debug] 29698#0: *6 write new buf t:1 f:0 000000000218FD78, pos 000000000218FD78, size: 237 file: 0, size: 0
+2017/06/15 17:33:05 [debug] 29698#0: *6 http write filter: l:0 f:0 s:237
+2017/06/15 17:33:05 [debug] 29698#0: *6 http output filter "/index.html?"
+2017/06/15 17:33:05 [debug] 29698#0: *6 http copy filter: "/index.html?"
+2017/06/15 17:33:05 [debug] 29698#0: *6 http postpone filter "/index.html?" 00007FFFFCE3F3E0
+2017/06/15 17:33:05 [debug] 29698#0: *6 write old buf t:1 f:0 000000000218FD78, pos 000000000218FD78, size: 237 file: 0, size: 0
+2017/06/15 17:33:05 [debug] 29698#0: *6 write new buf t:0 f:1 0000000000000000, pos 0000000000000000, size: 0 file: 0, size: 612
+2017/06/15 17:33:05 [debug] 29698#0: *6 http write filter: l:1 f:0 s:849
+2017/06/15 17:33:05 [debug] 29698#0: *6 http write filter limit 0
+2017/06/15 17:33:05 [debug] 29698#0: *6 writev: 237
+2017/06/15 17:33:05 [debug] 29698#0: *6 sendfile: @0 612
+2017/06/15 17:33:05 [debug] 29698#0: *6 sendfile: 612, @0 612:612
+2017/06/15 17:33:05 [debug] 29698#0: *6 http write filter 0000000000000000
+2017/06/15 17:33:05 [debug] 29698#0: *6 http copy filter: 0 "/index.html?"
+2017/06/15 17:33:05 [debug] 29698#0: *6 http finalize request: 0, "/index.html?" a:1, c:2
+2017/06/15 17:33:05 [debug] 29698#0: *6 http request count:2 blk:0
+2017/06/15 17:33:05 [debug] 29698#0: *6 http finalize request: -4, "/index.html?" a:1, c:1
+2017/06/15 17:33:05 [debug] 29698#0: *6 set http keepalive handler
+2017/06/15 17:33:05 [debug] 29698#0: *6 http close request
+2017/06/15 17:33:05 [debug] 29698#0: *6 http log handler
+2017/06/15 17:33:05 [debug] 29698#0: *6 run cleanup: 0000000002197828
+2017/06/15 17:33:05 [debug] 29698#0: *6 file cleanup: fd:10
+2017/06/15 17:33:05 [debug] 29698#0: *6 free: 00000000021968C0, unused: 24
+2017/06/15 17:33:05 [debug] 29698#0: *6 free: 000000000218FBF0, unused: 3111
+2017/06/15 17:33:05 [debug] 29698#0: *6 free: 00000000021964B0
+2017/06/15 17:33:05 [debug] 29698#0: *6 hc free: 0000000000000000 0
+2017/06/15 17:33:05 [debug] 29698#0: *6 hc busy: 0000000000000000 0
+2017/06/15 17:33:05 [debug] 29698#0: *6 tcp_nodelay
+2017/06/15 17:33:05 [debug] 29698#0: *6 reusable connection: 1
+2017/06/15 17:33:05 [debug] 29698#0: *6 event timer add: 3: 65000:1497519250559
+2017/06/15 17:33:05 [debug] 29698#0: *6 post event 0000000002196178
+2017/06/15 17:33:05 [debug] 29698#0: timer delta: 0
+2017/06/15 17:33:05 [debug] 29698#0: posted events 0000000002196178
+2017/06/15 17:33:05 [debug] 29698#0: posted event 0000000002196178
+2017/06/15 17:33:05 [debug] 29698#0: *6 delete posted event 0000000002196178
+2017/06/15 17:33:05 [debug] 29698#0: *6 http keepalive handler
+2017/06/15 17:33:05 [debug] 29698#0: *6 malloc: 00000000021964B0:1024
+2017/06/15 17:33:05 [debug] 29698#0: *6 recv: fd:3 -1 of 1024
+2017/06/15 17:33:05 [debug] 29698#0: *6 recv() not ready (11: Resource temporarily unavailable)
+2017/06/15 17:33:05 [debug] 29698#0: *6 free: 00000000021964B0
+2017/06/15 17:33:05 [debug] 29698#0: posted event 0000000000000000
+2017/06/15 17:33:05 [debug] 29698#0: worker cycle
+2017/06/15 17:33:05 [debug] 29698#0: epoll timer: 61213
+2017/06/15 17:33:06 [debug] 29698#0: epoll: fd:3 ev:2019 d:0000000002195F59
+2017/06/15 17:33:06 [debug] 29698#0: epoll_wait() error on fd:3 ev:2019
+2017/06/15 17:33:06 [debug] 29698#0: *6 http keepalive handler
+2017/06/15 17:33:06 [debug] 29698#0: *6 malloc: 00000000021964B0:1024
+2017/06/15 17:33:06 [debug] 29698#0: *6 recv: fd:3 -1 of 1024
+2017/06/15 17:33:06 [info] 29698#0: *6 client 45.63.120.38 closed keepalive connection (104: Connection reset by peer)
+2017/06/15 17:33:06 [debug] 29698#0: *6 close http connection: 3
+2017/06/15 17:33:06 [debug] 29698#0: *6 event timer del: 3: 1497519250559
+2017/06/15 17:33:06 [debug] 29698#0: *6 reusable connection: 0
+2017/06/15 17:33:06 [debug] 29698#0: *6 free: 00000000021964B0
+2017/06/15 17:33:06 [debug] 29698#0: *6 free: 000000000218ADA0, unused: 0
+2017/06/15 17:33:06 [debug] 29698#0: *6 free: 000000000218AF00, unused: 120
+2017/06/15 17:33:06 [debug] 29698#0: timer delta: 656
+2017/06/15 17:33:06 [debug] 29698#0: posted events 0000000000000000
+2017/06/15 17:33:06 [debug] 29698#0: worker cycle
+2017/06/15 17:33:06 [debug] 29698#0: epoll timer: 60557
+2017/06/15 17:33:06 [debug] 29698#0: epoll: fd:6 ev:0001 d:0000000002195CD0
+2017/06/15 17:33:06 [debug] 29698#0: accept on 0.0.0.0:80, ready: 0
+2017/06/15 17:33:06 [debug] 29698#0: posix_memalign: 000000000218ADA0:256 @16
+2017/06/15 17:33:06 [debug] 29698#0: *7 accept: 45.63.120.38 fd:3
+2017/06/15 17:33:06 [debug] 29698#0: posix_memalign: 000000000218AF00:256 @16
+2017/06/15 17:33:06 [debug] 29698#0: *7 event timer add: 3: 60000:1497519246336
+2017/06/15 17:33:06 [debug] 29698#0: *7 reusable connection: 1
+2017/06/15 17:33:06 [debug] 29698#0: *7 epoll add event: fd:3 op:1 ev:80002001
+2017/06/15 17:33:06 [debug] 29698#0: timer delta: 121
+2017/06/15 17:33:06 [debug] 29698#0: posted events 0000000000000000
+2017/06/15 17:33:06 [debug] 29698#0: worker cycle
+2017/06/15 17:33:06 [debug] 29698#0: epoll timer: 60000
+2017/06/15 17:33:06 [debug] 29698#0: epoll: fd:3 ev:0001 d:0000000002195F58
+2017/06/15 17:33:06 [debug] 29698#0: *7 http wait request handler
+2017/06/15 17:33:06 [debug] 29698#0: *7 malloc: 00000000021964B0:1024
+2017/06/15 17:33:06 [debug] 29698#0: *7 recv: fd:3 415 of 1024
+2017/06/15 17:33:06 [debug] 29698#0: *7 reusable connection: 0
+2017/06/15 17:33:06 [debug] 29698#0: *7 posix_memalign: 00000000021968C0:4096 @16
+2017/06/15 17:33:06 [debug] 29698#0: *7 http process request line
+2017/06/15 17:33:06 [debug] 29698#0: *7 http request line: "GET / HTTP/1.1"
+2017/06/15 17:33:06 [debug] 29698#0: *7 http uri: "/"
+2017/06/15 17:33:06 [debug] 29698#0: *7 http args: ""
+2017/06/15 17:33:06 [debug] 29698#0: *7 http exten: ""
+2017/06/15 17:33:06 [debug] 29698#0: *7 http process request header line
+2017/06/15 17:33:06 [debug] 29698#0: *7 http header: "Host: tplinux.cn"
+2017/06/15 17:33:06 [debug] 29698#0: *7 http header: "Connection: keep-alive"
+2017/06/15 17:33:06 [debug] 29698#0: *7 http header: "Cache-Control: max-age=0"
+2017/06/15 17:33:06 [debug] 29698#0: *7 http header: "Upgrade-Insecure-Requests: 1"
+2017/06/15 17:33:06 [debug] 29698#0: *7 http header: "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017/06/15 17:33:06 [debug] 29698#0: *7 http header: "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+2017/06/15 17:33:06 [debug] 29698#0: *7 http header: "Accept-Encoding: gzip, deflate, sdch"
+2017/06/15 17:33:06 [debug] 29698#0: *7 http header: "Accept-Language: zh-CN,zh;q=0.8,en;q=0.6"
+2017/06/15 17:33:06 [debug] 29698#0: *7 http header done
+2017/06/15 17:33:06 [debug] 29698#0: *7 event timer del: 3: 1497519246336
+2017/06/15 17:33:06 [debug] 29698#0: *7 rewrite phase: 0
+2017/06/15 17:33:06 [debug] 29698#0: *7 test location: "/"
+2017/06/15 17:33:06 [debug] 29698#0: *7 using configuration "/"
+2017/06/15 17:33:06 [debug] 29698#0: *7 http cl:-1 max:1048576
+2017/06/15 17:33:06 [debug] 29698#0: *7 rewrite phase: 2
+2017/06/15 17:33:06 [debug] 29698#0: *7 post rewrite phase: 3
+2017/06/15 17:33:06 [debug] 29698#0: *7 generic phase: 4
+2017/06/15 17:33:06 [debug] 29698#0: *7 generic phase: 5
+2017/06/15 17:33:06 [debug] 29698#0: *7 access phase: 6
+2017/06/15 17:33:06 [debug] 29698#0: *7 access phase: 7
+2017/06/15 17:33:06 [debug] 29698#0: *7 post access phase: 8
+2017/06/15 17:33:06 [debug] 29698#0: *7 content phase: 9
+2017/06/15 17:33:06 [debug] 29698#0: *7 open index "/usr/local/webserver/nginx/html/index.html"
+2017/06/15 17:33:06 [debug] 29698#0: *7 internal redirect: "/index.html?"
+2017/06/15 17:33:06 [debug] 29698#0: *7 rewrite phase: 0
+2017/06/15 17:33:06 [debug] 29698#0: *7 test location: "/"
+2017/06/15 17:33:06 [debug] 29698#0: *7 test location: "50x.html"
+2017/06/15 17:33:06 [debug] 29698#0: *7 using configuration "/"
+2017/06/15 17:33:06 [debug] 29698#0: *7 http cl:-1 max:1048576
+2017/06/15 17:33:06 [debug] 29698#0: *7 rewrite phase: 2
+2017/06/15 17:33:06 [debug] 29698#0: *7 post rewrite phase: 3
+2017/06/15 17:33:06 [debug] 29698#0: *7 generic phase: 4
+2017/06/15 17:33:06 [debug] 29698#0: *7 generic phase: 5
+2017/06/15 17:33:06 [debug] 29698#0: *7 access phase: 6
+2017/06/15 17:33:06 [debug] 29698#0: *7 access phase: 7
+2017/06/15 17:33:06 [debug] 29698#0: *7 post access phase: 8
+2017/06/15 17:33:06 [debug] 29698#0: *7 content phase: 9
+2017/06/15 17:33:06 [debug] 29698#0: *7 content phase: 10
+2017/06/15 17:33:06 [debug] 29698#0: *7 content phase: 11
+2017/06/15 17:33:06 [debug] 29698#0: *7 http filename: "/usr/local/webserver/nginx/html/index.html"
+2017/06/15 17:33:06 [debug] 29698#0: *7 add cleanup: 0000000002197828
+2017/06/15 17:33:06 [debug] 29698#0: *7 http static fd: 10
+2017/06/15 17:33:06 [debug] 29698#0: *7 http set discard body
+2017/06/15 17:33:06 [debug] 29698#0: *7 posix_memalign: 000000000218FBF0:4096 @16
+2017/06/15 17:33:06 [debug] 29698#0: *7 HTTP/1.1 200 OK
+Server: nginx/1.6.2
+Date: Thu, 15 Jun 2017 09:33:06 GMT
+Content-Type: text/html
+Content-Length: 612
+Last-Modified: Thu, 15 Jun 2017 09:11:14 GMT
+Connection: keep-alive
+ETag: "59424f32-264"
+Accept-Ranges: bytes
+
+2017/06/15 17:33:06 [debug] 29698#0: *7 write new buf t:1 f:0 000000000218FD78, pos 000000000218FD78, size: 237 file: 0, size: 0
+2017/06/15 17:33:06 [debug] 29698#0: *7 http write filter: l:0 f:0 s:237
+2017/06/15 17:33:06 [debug] 29698#0: *7 http output filter "/index.html?"
+2017/06/15 17:33:06 [debug] 29698#0: *7 http copy filter: "/index.html?"
+2017/06/15 17:33:06 [debug] 29698#0: *7 http postpone filter "/index.html?" 00007FFFFCE3F3E0
+2017/06/15 17:33:06 [debug] 29698#0: *7 write old buf t:1 f:0 000000000218FD78, pos 000000000218FD78, size: 237 file: 0, size: 0
+2017/06/15 17:33:06 [debug] 29698#0: *7 write new buf t:0 f:1 0000000000000000, pos 0000000000000000, size: 0 file: 0, size: 612
+2017/06/15 17:33:06 [debug] 29698#0: *7 http write filter: l:1 f:0 s:849
+2017/06/15 17:33:06 [debug] 29698#0: *7 http write filter limit 0
+2017/06/15 17:33:06 [debug] 29698#0: *7 writev: 237
+2017/06/15 17:33:06 [debug] 29698#0: *7 sendfile: @0 612
+2017/06/15 17:33:06 [debug] 29698#0: *7 sendfile: 612, @0 612:612
+2017/06/15 17:33:06 [debug] 29698#0: *7 http write filter 0000000000000000
+2017/06/15 17:33:06 [debug] 29698#0: *7 http copy filter: 0 "/index.html?"
+2017/06/15 17:33:06 [debug] 29698#0: *7 http finalize request: 0, "/index.html?" a:1, c:2
+2017/06/15 17:33:06 [debug] 29698#0: *7 http request count:2 blk:0
+2017/06/15 17:33:06 [debug] 29698#0: *7 http finalize request: -4, "/index.html?" a:1, c:1
+2017/06/15 17:33:06 [debug] 29698#0: *7 set http keepalive handler
+2017/06/15 17:33:06 [debug] 29698#0: *7 http close request
+2017/06/15 17:33:06 [debug] 29698#0: *7 http log handler
+2017/06/15 17:33:06 [debug] 29698#0: *7 run cleanup: 0000000002197828
+2017/06/15 17:33:06 [debug] 29698#0: *7 file cleanup: fd:10
+2017/06/15 17:33:06 [debug] 29698#0: *7 free: 00000000021968C0, unused: 24
+2017/06/15 17:33:06 [debug] 29698#0: *7 free: 000000000218FBF0, unused: 3111
+2017/06/15 17:33:06 [debug] 29698#0: *7 free: 00000000021964B0
+2017/06/15 17:33:06 [debug] 29698#0: *7 hc free: 0000000000000000 0
+2017/06/15 17:33:06 [debug] 29698#0: *7 hc busy: 0000000000000000 0
+2017/06/15 17:33:06 [debug] 29698#0: *7 tcp_nodelay
+2017/06/15 17:33:06 [debug] 29698#0: *7 reusable connection: 1
+2017/06/15 17:33:06 [debug] 29698#0: *7 event timer add: 3: 65000:1497519251337
+2017/06/15 17:33:06 [debug] 29698#0: *7 post event 0000000002196178
+2017/06/15 17:33:06 [debug] 29698#0: timer delta: 1
+2017/06/15 17:33:06 [debug] 29698#0: posted events 0000000002196178
+2017/06/15 17:33:06 [debug] 29698#0: posted event 0000000002196178
+2017/06/15 17:33:06 [debug] 29698#0: *7 delete posted event 0000000002196178
+2017/06/15 17:33:06 [debug] 29698#0: *7 http keepalive handler
+2017/06/15 17:33:06 [debug] 29698#0: *7 malloc: 00000000021964B0:1024
+2017/06/15 17:33:06 [debug] 29698#0: *7 recv: fd:3 -1 of 1024
+2017/06/15 17:33:06 [debug] 29698#0: *7 recv() not ready (11: Resource temporarily unavailable)
+2017/06/15 17:33:06 [debug] 29698#0: *7 free: 00000000021964B0
+2017/06/15 17:33:06 [debug] 29698#0: posted event 0000000000000000
+2017/06/15 17:33:06 [debug] 29698#0: worker cycle
+2017/06/15 17:33:06 [debug] 29698#0: epoll timer: 60435
+2017/06/15 17:33:06 [debug] 29698#0: epoll: fd:3 ev:2001 d:0000000002195F58
+2017/06/15 17:33:06 [debug] 29698#0: *7 http keepalive handler
+2017/06/15 17:33:06 [debug] 29698#0: *7 malloc: 00000000021964B0:1024
+2017/06/15 17:33:06 [debug] 29698#0: *7 recv: fd:3 0 of 1024
+2017/06/15 17:33:06 [info] 29698#0: *7 client 45.63.120.38 closed keepalive connection
+2017/06/15 17:33:06 [debug] 29698#0: *7 close http connection: 3
+2017/06/15 17:33:06 [debug] 29698#0: *7 event timer del: 3: 1497519251337
+2017/06/15 17:33:06 [debug] 29698#0: *7 reusable connection: 0
+2017/06/15 17:33:06 [debug] 29698#0: *7 free: 00000000021964B0
+2017/06/15 17:33:06 [debug] 29698#0: *7 free: 000000000218ADA0, unused: 0
+2017/06/15 17:33:06 [debug] 29698#0: *7 free: 000000000218AF00, unused: 120
+2017/06/15 17:33:06 [debug] 29698#0: timer delta: 60
+2017/06/15 17:33:06 [debug] 29698#0: posted events 0000000000000000
+2017/06/15 17:33:06 [debug] 29698#0: worker cycle
+2017/06/15 17:33:06 [debug] 29698#0: epoll timer: 60375
+2017/06/15 17:33:06 [debug] 29698#0: epoll: fd:6 ev:0001 d:0000000002195CD0
+2017/06/15 17:33:06 [debug] 29698#0: accept on 0.0.0.0:80, ready: 0
+2017/06/15 17:33:06 [debug] 29698#0: posix_memalign: 000000000218ADA0:256 @16
+2017/06/15 17:33:06 [debug] 29698#0: *8 accept: 45.63.120.38 fd:3
+2017/06/15 17:33:06 [debug] 29698#0: posix_memalign: 000000000218AF00:256 @16
+2017/06/15 17:33:06 [debug] 29698#0: *8 event timer add: 3: 60000:1497519246757
+2017/06/15 17:33:06 [debug] 29698#0: *8 reusable connection: 1
+2017/06/15 17:33:06 [debug] 29698#0: *8 epoll add event: fd:3 op:1 ev:80002001
+2017/06/15 17:33:06 [debug] 29698#0: timer delta: 360
+2017/06/15 17:33:06 [debug] 29698#0: posted events 0000000000000000
+2017/06/15 17:33:06 [debug] 29698#0: worker cycle
+2017/06/15 17:33:06 [debug] 29698#0: epoll timer: 60000
+2017/06/15 17:33:06 [debug] 29698#0: epoll: fd:6 ev:0001 d:0000000002195CD0
+2017/06/15 17:33:06 [debug] 29698#0: accept on 0.0.0.0:80, ready: 0
+2017/06/15 17:33:06 [debug] 29698#0: *5 reusing connection
+2017/06/15 17:33:06 [debug] 29698#0: *5 http keepalive handler
+2017/06/15 17:33:06 [debug] 29698#0: *5 close http connection: 9
+2017/06/15 17:33:06 [debug] 29698#0: *5 event timer del: 9: 1497519246772
+2017/06/15 17:33:06 [debug] 29698#0: *5 reusable connection: 0
+2017/06/15 17:33:06 [debug] 29698#0: *5 free: 0000000000000000
+2017/06/15 17:33:06 [debug] 29698#0: *5 free: 000000000218B010, unused: 0
+2017/06/15 17:33:06 [debug] 29698#0: *5 free: 00000000021963A0, unused: 120
+2017/06/15 17:33:06 [debug] 29698#0: *8 reusing connection
+2017/06/15 17:33:06 [debug] 29698#0: *8 http wait request handler
+2017/06/15 17:33:06 [debug] 29698#0: *8 close http connection: 3
+2017/06/15 17:33:06 [debug] 29698#0: *8 event timer del: 3: 1497519246757
+2017/06/15 17:33:06 [debug] 29698#0: *8 reusable connection: 0
+2017/06/15 17:33:06 [debug] 29698#0: *8 free: 000000000218ADA0, unused: 16
+2017/06/15 17:33:06 [debug] 29698#0: *8 free: 000000000218AF00, unused: 200
+2017/06/15 17:33:06 [debug] 29698#0: posix_memalign: 000000000218ADA0:256 @16
+2017/06/15 17:33:06 [debug] 29698#0: *9 accept: 45.63.120.38 fd:10
+2017/06/15 17:33:06 [debug] 29698#0: posix_memalign: 000000000218AF00:256 @16
+2017/06/15 17:33:06 [debug] 29698#0: *9 event timer add: 10: 60000:1497519246802
+2017/06/15 17:33:06 [debug] 29698#0: *9 reusable connection: 1
+2017/06/15 17:33:06 [debug] 29698#0: *9 epoll add event: fd:10 op:1 ev:80002001
+2017/06/15 17:33:06 [debug] 29698#0: timer delta: 45
+2017/06/15 17:33:06 [debug] 29698#0: posted events 0000000000000000
+2017/06/15 17:33:06 [debug] 29698#0: worker cycle
+2017/06/15 17:33:06 [debug] 29698#0: epoll timer: 60000
+2017/06/15 17:33:06 [debug] 29698#0: epoll: fd:10 ev:0001 d:0000000002195F58
+2017/06/15 17:33:06 [debug] 29698#0: *9 http wait request handler
+2017/06/15 17:33:06 [debug] 29698#0: *9 malloc: 00000000021963A0:1024
+2017/06/15 17:33:06 [debug] 29698#0: *9 recv: fd:10 415 of 1024
+2017/06/15 17:33:06 [debug] 29698#0: *9 reusable connection: 0
+2017/06/15 17:33:06 [debug] 29698#0: *9 posix_memalign: 00000000021967B0:4096 @16
+2017/06/15 17:33:06 [debug] 29698#0: *9 http process request line
+2017/06/15 17:33:06 [debug] 29698#0: *9 http request line: "GET / HTTP/1.1"
+2017/06/15 17:33:06 [debug] 29698#0: *9 http uri: "/"
+2017/06/15 17:33:06 [debug] 29698#0: *9 http args: ""
+2017/06/15 17:33:06 [debug] 29698#0: *9 http exten: ""
+2017/06/15 17:33:06 [debug] 29698#0: *9 http process request header line
+2017/06/15 17:33:06 [debug] 29698#0: *9 http header: "Host: tplinux.cn"
+2017/06/15 17:33:06 [debug] 29698#0: *9 http header: "Connection: keep-alive"
+2017/06/15 17:33:06 [debug] 29698#0: *9 http header: "Cache-Control: max-age=0"
+2017/06/15 17:33:06 [debug] 29698#0: *9 http header: "Upgrade-Insecure-Requests: 1"
+2017/06/15 17:33:06 [debug] 29698#0: *9 http header: "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+2017/06/15 17:33:06 [debug] 29698#0: *9 http header: "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+2017/06/15 17:33:06 [debug] 29698#0: *9 http header: "Accept-Encoding: gzip, deflate, sdch"
+2017/06/15 17:33:06 [debug] 29698#0: *9 http header: "Accept-Language: zh-CN,zh;q=0.8,en;q=0.6"
+2017/06/15 17:33:06 [debug] 29698#0: *9 http header done
+2017/06/15 17:33:06 [debug] 29698#0: *9 event timer del: 10: 1497519246802
+2017/06/15 17:33:06 [debug] 29698#0: *9 rewrite phase: 0
+2017/06/15 17:33:06 [debug] 29698#0: *9 test location: "/"
+2017/06/15 17:33:06 [debug] 29698#0: *9 using configuration "/"
+2017/06/15 17:33:06 [debug] 29698#0: *9 http cl:-1 max:1048576
+2017/06/15 17:33:06 [debug] 29698#0: *9 rewrite phase: 2
+2017/06/15 17:33:06 [debug] 29698#0: *9 post rewrite phase: 3
+2017/06/15 17:33:06 [debug] 29698#0: *9 generic phase: 4
+2017/06/15 17:33:06 [debug] 29698#0: *9 generic phase: 5
+2017/06/15 17:33:06 [debug] 29698#0: *9 access phase: 6
+2017/06/15 17:33:06 [debug] 29698#0: *9 access phase: 7
+2017/06/15 17:33:06 [debug] 29698#0: *9 post access phase: 8
+2017/06/15 17:33:06 [debug] 29698#0: *9 content phase: 9
+2017/06/15 17:33:06 [debug] 29698#0: *9 open index "/usr/local/webserver/nginx/html/index.html"
+2017/06/15 17:33:06 [debug] 29698#0: *9 internal redirect: "/index.html?"
+2017/06/15 17:33:06 [debug] 29698#0: *9 rewrite phase: 0
+2017/06/15 17:33:06 [debug] 29698#0: *9 test location: "/"
+2017/06/15 17:33:06 [debug] 29698#0: *9 test location: "50x.html"
+2017/06/15 17:33:06 [debug] 29698#0: *9 using configuration "/"
+2017/06/15 17:33:06 [debug] 29698#0: *9 http cl:-1 max:1048576
+2017/06/15 17:33:06 [debug] 29698#0: *9 rewrite phase: 2
+2017/06/15 17:33:06 [debug] 29698#0: *9 post rewrite phase: 3
+2017/06/15 17:33:06 [debug] 29698#0: *9 generic phase: 4
+2017/06/15 17:33:06 [debug] 29698#0: *9 generic phase: 5
+2017/06/15 17:33:06 [debug] 29698#0: *9 access phase: 6
+2017/06/15 17:33:06 [debug] 29698#0: *9 access phase: 7
+2017/06/15 17:33:06 [debug] 29698#0: *9 post access phase: 8
+2017/06/15 17:33:06 [debug] 29698#0: *9 content phase: 9
+2017/06/15 17:33:06 [debug] 29698#0: *9 content phase: 10
+2017/06/15 17:33:06 [debug] 29698#0: *9 content phase: 11
+2017/06/15 17:33:06 [debug] 29698#0: *9 http filename: "/usr/local/webserver/nginx/html/index.html"
+2017/06/15 17:33:06 [debug] 29698#0: *9 add cleanup: 0000000002197718
+2017/06/15 17:33:06 [debug] 29698#0: *9 http static fd: 3
+2017/06/15 17:33:06 [debug] 29698#0: *9 http set discard body
+2017/06/15 17:33:06 [debug] 29698#0: *9 posix_memalign: 000000000218FBF0:4096 @16
+2017/06/15 17:33:06 [debug] 29698#0: *9 HTTP/1.1 200 OK
+Server: nginx/1.6.2
+Date: Thu, 15 Jun 2017 09:33:06 GMT
+Content-Type: text/html
+Content-Length: 612
+Last-Modified: Thu, 15 Jun 2017 09:11:14 GMT
+Connection: keep-alive
+ETag: "59424f32-264"
+Accept-Ranges: bytes
+
+2017/06/15 17:33:06 [debug] 29698#0: *9 write new buf t:1 f:0 000000000218FD78, pos 000000000218FD78, size: 237 file: 0, size: 0
+2017/06/15 17:33:06 [debug] 29698#0: *9 http write filter: l:0 f:0 s:237
+2017/06/15 17:33:06 [debug] 29698#0: *9 http output filter "/index.html?"
+2017/06/15 17:33:06 [debug] 29698#0: *9 http copy filter: "/index.html?"
+2017/06/15 17:33:06 [debug] 29698#0: *9 http postpone filter "/index.html?" 00007FFFFCE3F3E0
+2017/06/15 17:33:06 [debug] 29698#0: *9 write old buf t:1 f:0 000000000218FD78, pos 000000000218FD78, size: 237 file: 0, size: 0
+2017/06/15 17:33:06 [debug] 29698#0: *9 write new buf t:0 f:1 0000000000000000, pos 0000000000000000, size: 0 file: 0, size: 612
+2017/06/15 17:33:06 [debug] 29698#0: *9 http write filter: l:1 f:0 s:849
+2017/06/15 17:33:06 [debug] 29698#0: *9 http write filter limit 0
+2017/06/15 17:33:06 [debug] 29698#0: *9 writev: 237
+2017/06/15 17:33:06 [debug] 29698#0: *9 sendfile: @0 612
+2017/06/15 17:33:06 [debug] 29698#0: *9 sendfile: 612, @0 612:612
+2017/06/15 17:33:06 [debug] 29698#0: *9 http write filter 0000000000000000
+2017/06/15 17:33:06 [debug] 29698#0: *9 http copy filter: 0 "/index.html?"
+2017/06/15 17:33:06 [debug] 29698#0: *9 http finalize request: 0, "/index.html?" a:1, c:2
+2017/06/15 17:33:06 [debug] 29698#0: *9 http request count:2 blk:0
+2017/06/15 17:33:06 [debug] 29698#0: *9 http finalize request: -4, "/index.html?" a:1, c:1
+2017/06/15 17:33:06 [debug] 29698#0: *9 set http keepalive handler
+2017/06/15 17:33:06 [debug] 29698#0: *9 http close request
+2017/06/15 17:33:06 [debug] 29698#0: *9 http log handler
+2017/06/15 17:33:06 [debug] 29698#0: *9 run cleanup: 0000000002197718
+2017/06/15 17:33:06 [debug] 29698#0: *9 file cleanup: fd:3
+2017/06/15 17:33:06 [debug] 29698#0: *9 free: 00000000021967B0, unused: 24
+2017/06/15 17:33:06 [debug] 29698#0: *9 free: 000000000218FBF0, unused: 3111
+2017/06/15 17:33:06 [debug] 29698#0: *9 free: 00000000021963A0
+2017/06/15 17:33:06 [debug] 29698#0: *9 hc free: 0000000000000000 0
+2017/06/15 17:33:06 [debug] 29698#0: *9 hc busy: 0000000000000000 0
+2017/06/15 17:33:06 [debug] 29698#0: *9 tcp_nodelay
+2017/06/15 17:33:06 [debug] 29698#0: *9 reusable connection: 1
+2017/06/15 17:33:06 [debug] 29698#0: *9 event timer add: 10: 65000:1497519251802
+2017/06/15 17:33:06 [debug] 29698#0: *9 post event 0000000002196178
+2017/06/15 17:33:06 [debug] 29698#0: timer delta: 0
+2017/06/15 17:33:06 [debug] 29698#0: posted events 0000000002196178
+2017/06/15 17:33:06 [debug] 29698#0: posted event 0000000002196178
+2017/06/15 17:33:06 [debug] 29698#0: *9 delete posted event 0000000002196178
+2017/06/15 17:33:06 [debug] 29698#0: *9 http keepalive handler
+2017/06/15 17:33:06 [debug] 29698#0: *9 malloc: 00000000021963A0:1024
+2017/06/15 17:33:06 [debug] 29698#0: *9 recv: fd:10 -1 of 1024
+2017/06/15 17:33:06 [debug] 29698#0: *9 recv() not ready (11: Resource temporarily unavailable)
+2017/06/15 17:33:06 [debug] 29698#0: *9 free: 00000000021963A0
+2017/06/15 17:33:06 [debug] 29698#0: posted event 0000000000000000
+2017/06/15 17:33:06 [debug] 29698#0: worker cycle
+2017/06/15 17:33:06 [debug] 29698#0: epoll timer: 65000
+2017/06/15 17:34:11 [debug] 29698#0: timer delta: 65065
+2017/06/15 17:34:11 [debug] 29698#0: *9 event timer del: 10: 1497519251802
+2017/06/15 17:34:11 [debug] 29698#0: *9 http keepalive handler
+2017/06/15 17:34:11 [debug] 29698#0: *9 close http connection: 10
+2017/06/15 17:34:11 [debug] 29698#0: *9 reusable connection: 0
+2017/06/15 17:34:11 [debug] 29698#0: *9 free: 0000000000000000
+2017/06/15 17:34:11 [debug] 29698#0: *9 free: 000000000218ADA0, unused: 0
+2017/06/15 17:34:11 [debug] 29698#0: *9 free: 000000000218AF00, unused: 120
+2017/06/15 17:34:11 [debug] 29698#0: posted events 0000000000000000
+2017/06/15 17:34:11 [debug] 29698#0: worker cycle
+2017/06/15 17:34:11 [debug] 29698#0: epoll timer: -1
